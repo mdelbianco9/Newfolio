@@ -1,7 +1,7 @@
 .portfolio-header {
   position: relative;
   background-image: url(images/vibrantcolors.jpeg);
-  background-position: 0% 15%;
+  background-position: 0% 90%;
 }
 
 .portfolio-header .mdl-layout__header-row {
@@ -175,4 +175,51 @@ footer {
   background-image: url(images/footer-background.png);
   background-size: cover;
 }
+
+
+
+/*Custom CSS*/
+
+/*Top border for SEP opening1 pic*/
+.border_sep {
+  border-top: 1px solid #444444;
+}
+
+
+/*Image captions*/
+
+/*Image captions on portfolio*/
+.img-caption {
+    font-size: 12px;
+    letter-spacing: 0;
+    color: rgba(0, 0, 0, .54);
+}
+
+/*Overlapping two images*/
+.overlap{
+  z-index: 5;
+  margin-top: -11rem;
+  margin-left: .5rem;
+  border: 1px solid grey;
+}
+
+.overlap1 {
+  border: 1px solid black;
+}
+
+/*Links to websites*/
+.tosite {
+  font-size: 16px;
+  margin-right: 1rem;
+  transition: color .5s;
+}
+
+.tosite:hover {
+  color: rgba(255,94,10,.5);
+}
+
+
+
+
+
 

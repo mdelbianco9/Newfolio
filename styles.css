@@ -218,8 +218,11 @@ footer {
   color: rgba(255,94,10,.5);
 }
 
-
-
+#cover {
+  opacity: .9;
+  background-color: black;
+  z-index: 100;
+}
 
 
 

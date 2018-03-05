@@ -218,11 +218,16 @@ footer {
   color: rgba(255,94,10,.5);
 }
 
-#cover {
-  opacity: .9;
-  background-color: black;
-  z-index: 100;
+/*Blog background*/
+#myblog {
+  background-image: url(images/blog.jpg);
+  background-size: cover;
+  height: 700px;
+  text-align: center;
+  padding-top: 4rem;
 }
 
-
+#myblog h1 {
+  color: #fff;
+}
 
